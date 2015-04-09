@@ -101,6 +101,7 @@ public class ControlEstudiante implements ActionListener, MouseListener {
       
         if (evento.getActionCommand().equalsIgnoreCase(PanelBotones.BTN_SALIR)) {
             guiEstudiante.dispose();
+            GUIEstudiante.mensaje("Salida con exito");
         }
     }//FIN DE SALIR
 
